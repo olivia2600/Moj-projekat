@@ -1,0 +1,9 @@
+Dati kod sluzi za brojanje svih karaktera u fajlu "zad1.c" koji nisu slovo 'F' niti znak '!'.
+
+Program prvo otvara fajl "zad1.c" u rezimu citanja. Zatim pomocu funkcije fgetc() cita fajl karakter po karakter sve dok ne dodje do kraja fajla (EOF). Za svaki procitani karakter provjerava uslov:
+
+ch != 'F' && ch != '!'
+
+Ako je uslov tacan, odnosno ako karakter nije 'F' i nije '!', brojac br se uvecava za 1. Na kraju program ispisuje vrijednost brojaca br, zatvara fajl i zavrsava rad.
+
+Dakle, rezultat programa je ukupan broj karaktera u fajlu "zad1.c" bez karaktera 'F' i '!'.
